@@ -1,0 +1,3 @@
+- Com tempos equilibrados, o consumidor processa tudo normalmente.
+- Se o tempo de produção for muito maior que o de consumo, o consumidor termina cedo após o timeout, sem consumir tudo.
+- Seo consumidor for muito mais lento, a fila enche e o produtor bloqueia, mas o consumidor eventualmente termina tudo.

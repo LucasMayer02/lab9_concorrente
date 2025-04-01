@@ -1,0 +1,13 @@
+Quanto o tempo de produção é maior que o tempo de consumo:
+- A fila tende a fica vazia com frequência.
+- O consumidor frequentemente bloqueia esperando por novos elementos.
+
+
+Quando o tempo de consumo é maior que o de produção:
+- A fila tende a encher rapidamente.
+- O produtor pode ser bloqueado esperando espaço na fila.
+- O consumidor consome mais lentamente, o que pode causar acúmulo.
+
+Tempos iguais:
+- A fila se mantem estável, com uso constante.
+- Raramente ocorrem bloqueios.
